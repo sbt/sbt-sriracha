@@ -3,6 +3,8 @@ sbt-sriracha
 
 hot sauce for your build.
 
+This is an experimental plugin to support source/binary hybrid dependencies.
+
 setup
 -----
 
