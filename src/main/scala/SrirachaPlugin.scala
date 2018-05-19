@@ -22,7 +22,7 @@ object SrirachaPlugin extends AutoPlugin {
 }
 
 class RichProject(val project: Project) {
-  def sourceDependency(ref: ProjectRef, bin: ModuleID): Project =
+  def sourceDependency(ref: ClasspathDep[ProjectReference], bin: ModuleID): Project =
     if (SrirachaPlugin.sourceMode.get) project.dependsOn(ref)
     else project.settings(Keys.libraryDependencies += bin)
 }
