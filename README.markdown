@@ -1,6 +1,8 @@
 sbt-sriracha
 ============
 
+[![Build Status](https://travis-ci.org/sbt/sbt-sriracha.svg?branch=master)](https://travis-ci.org/sbt/sbt-sriracha)
+
 hot sauce for your build.
 
 This is an experimental plugin to support source/binary hybrid dependencies.
